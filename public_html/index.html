@@ -10,35 +10,56 @@ and open the template in the editor.
         <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="CSS/Portfolio2CSS.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class ="page">
-        <header>
-            <div class ="navbar">
-                <div class ="navbar-inner">
-                    <ul class ="nav">
-                        <li class ="active"><a href ='index.html'>About</a></li>
-                        <li> <a href ='ProjectPage.html'>Projects </a></li>
-                        <li><a href='TechnologyPage.html'>Technologies</a></li>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span10">
+                    <div id ="topbar" class ="row-fluid">
+                        <div id="upleft" class ="span2">
+                            <h1 class ="muted"> 00 </h1>                         
+                        </div>
+                        <div id="upright" class ="span10">
+                            <div id="uprighttext">
+                                <p><strong>About Me</strong></p>
+                                <p><small>The short version</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id ="main" class ="row-fluid">
+                        <div id="downleft" class ="span2">
+                            <img src ='http://4.bp.blogspot.com/-bSatbW-Fyyg/Tbz7ruPGvlI/AAAAAAAAAfk/0dUsfrVwFkk/s1600/DSC_0118.JPG' class="img-rounded">
+                        </div>
+                        <div id="downright" class ="span10">
+                            <div id ="downrighttext">
+                                <p class="title">ABOUT (ME)</p>
+                                <p class="blip">My name is Alex Larrimore and I teach computer science. My course covers HTML, CSS, Bootstrap and Javascript. I work for the Pasadena Educational Foundation's STEM program and teach 9th grade at Pasadena High School's App Academy. </p>
+                                <p class="title">ACADEMIC INTERESTS</p>
+                                <p class="blip">In addition to programming, my favorite subjects are history, philosophy, law and astronomy. </p>                     
+                                <p class="title">HOBBIES</p>
+                                <p class="blip">In my spare time I play soccer and dodgeball, read, explore Pasadena with my dog, play video games and rock climb. </p>           
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+                <div id="search" class="span2">
+                    <ul class="nav nav-list">
+                        <li class ="active">
+                            <a href ='index.html'>
+                                <h4>00</h4>
+                                <p>ABOUT (ME)<br/>The short version</p>
+                            </a></li>
+                        <li> <a href ='ProjectPage.html'><h4>01</h4>
+                                <p>PROJECTS<br/>Stuff I've Done</p></a></li>
+                        <li><a href='TechnologyPage.html'><h4>02</h4>
+                                <p>TECHNOLOGY<br/>What I use</p></a></li>
                     </ul>
                 </div>
             </div>
-            <h1>About Me</h1>
-        </header>
-            <main class ="summary">
-                <section class ="left">
-                    <h2> My name is Alex Larrimore and I teach computer science. My course covers HTML, CSS, and Javascript. </h2>
-                    <br/>
-                    <p> I work for the Pasadena Educational Foundation's STEM program and teach 9th grade at Pasadena High School's App Academy. </p>
-                    <p> In addition to programming, my favorite subjects are history, philosophy, law and astronomy. </p>
-                    <p> In my spare time I play soccer and dodgeball, read, explore Pasadena with my dog, play video games and rock climb. </p>           
-                </section>
-                <section id="avatar" class="right">
-                    <img src ='http://4.bp.blogspot.com/-bSatbW-Fyyg/Tbz7ruPGvlI/AAAAAAAAAfk/0dUsfrVwFkk/s1600/DSC_0118.JPG'>
-                </section>
-            </main>
         </div>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src=”javascripts/js/bootstrap.js”></script>     
+        <script src="javascripts/bootstrap.js"></script>
     </body>
 </html>

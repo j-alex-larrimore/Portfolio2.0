@@ -5,8 +5,133 @@
     Description:
         Purpose of the stylesheet follows.
 */
+@media(max-width:640px){
+    h1{
+        font-size:40px;
+    }
+}
+
+@media(max-width:800px)and (min-width:640px){
+    h1{
+        font-size:60px;
+    }
+}
+@media(max-width:1024px)and (min-width:800px){
+    h1{
+        font-size:80px;
+    }
+}
+@media(max-width:1280px)and (min-width:1024px){
+    h1{
+        font-size:100px;
+    }  
+}
+
+@media(min-width:1280px){
+    h1{
+        font-size:120px;
+    }
+}
 
 root { 
     display: block;
 }
 
+body{
+    background-color:#f2f2f2;
+}
+
+#main{
+    height:10em;
+}
+
+#topbar{
+    padding-top:1em;
+    height:10em;
+    border-bottom:1px solid gainsboro;
+}
+
+#upright{
+    height:8em;
+    border-left:1px solid gainsboro;
+}
+
+#uprighttext{
+    border-left:1px solid #acacac;
+    margin-top:8%;
+    padding-left:1%;
+    color:gray;
+}
+
+#upright p{
+    margin-bottom:0px;
+}
+
+#upleft{
+    height:8em;
+}
+
+#upleft h1{
+    padding-top:30%;
+    padding-left:20%;
+}
+
+#downright{
+    border-left:1px solid gainsboro;
+    color:gray;
+}
+
+.title{
+    padding-left:1%;
+    border-left:1px solid #acacac;
+}
+
+.blip{
+    padding-left:1%;
+}
+
+#downleft{
+    padding-top:1em;
+}
+
+#search{
+    border-left:solid gainsboro 1px;
+    padding-top:8em;
+}
+
+#search a{
+    color:gray;
+}
+
+#search li{
+    height:8em;
+}
+
+li h4{
+    display:inline;
+}
+li p{
+    display:inline;
+}
+
+.active h4{
+    color:orange;
+}
+
+.active a{
+    border-left:1px solid orange;
+}
+
+.thumbnails li{
+    height:35em;
+    
+}
+
+#downright li{
+    margin-left:0%;
+}
+
+.thumbnail img{
+    height:200px;
+    width:300px;
+}
