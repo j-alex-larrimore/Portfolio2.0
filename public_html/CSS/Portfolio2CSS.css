@@ -54,6 +54,7 @@ body{
 #upright{
     height:8em;
     border-left:1px solid gainsboro;
+    padding-left:0px;
 }
 
 #uprighttext{
@@ -70,15 +71,17 @@ body{
 #upleft{
     height:8em;
 }
-
+//img
 #upleft h1{
     padding-top:30%;
     padding-left:20%;
+    height:200%;
 }
 
 #downright{
     border-left:1px solid gainsboro;
     color:gray;
+    padding-left:0px;
 }
 
 .title{
@@ -92,11 +95,17 @@ body{
 
 #downleft{
     padding-top:1em;
+    
+}
+
+#downleft img{
+    width:100%;
 }
 
 #search{
     border-left:solid gainsboro 1px;
     padding-top:8em;
+    padding-left:0px;
 }
 
 #search a{

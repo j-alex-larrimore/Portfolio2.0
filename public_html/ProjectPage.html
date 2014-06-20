@@ -5,41 +5,43 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Project</title>
-        <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap-responsive.css">
+        <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap.min.css">
         <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="CSS/Portfolio2CSS.css">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span10">
-                    <div id ="topbar" class ="row-fluid">
-                        <div id="upleft" class ="span2">
-                            <h1 class ="muted"> 01 </h1>                         
+            <div class="row">
+                <div class="col-xs-10">
+                    <div id ="topbar" class ="row">
+                        <div id="upleft" class ="col-xs-2">
+                            <h1 class ="text-muted"> 01 </h1>                         
                         </div>
-                        <div id="upright" class ="span10">
+                        <div id="upright" class ="col-xs-10">
                             <div id="uprighttext">
                                 <p><strong>Projects</strong></p>
                                 <p><small>Stuff I've done</small></p>
                             </div>
                         </div>
                     </div>
-                    <div id ="main" class ="row-fluid">
-                        <div id="downleft" class ="span2">
+                    <div id ="main" class ="row">
+                        <div id="downleft" class ="col-xs-2">
                             <img src ='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfHgcDvwA4KWQq7WuyGTFySd38uJ4v5AYH9iWtBPf69qAcKhhS' class="img-rounded">
                         </div>
-                        <div id="downright" class ="span10">
+                        <div id="downright" class ="col-xs-10">
                              <ul class='thumbnails'>
-                                <li class='span4'>
+                                <li class='col-xs-4'>
                                     <div class='thumbnail'>
                                         <img src="images/portfolio-1.0.png" alt="page">
                                     </div>
                                     <h3>Portfolio 1.0</h3>
                                     <p>Created a simple multi-page online portfolio which documents past projects and technologies used. <small>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS</a></small></p>
                                 </li>
-                                <li class='span4'>
+                                <li class='col-xs-4'>
                                     <div class='thumbnail'>
                                         <img src='images/portfolio-2.0.png'>
                                     </div>
@@ -50,8 +52,8 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-                <div id="search" class="span2">
-                    <ul class="nav nav-list">
+                <div id="search" class="col-xs-2">
+                    <ul class="nav list-group">
                         <li>
                             <a href ='index.html'>
                                 <h4>00</h4>
@@ -65,29 +67,8 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <!--
-            <section class ="summary">
-                    <div class ="leftFlip">
-                        <h2>Portfolio 1.0</h2>
-                        <h3>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS</a></h3>
-                        <p>Created a simple online portfolio which documents past projects and technologies used.</p>                   
-                    </div>
-                    <div class ="rightFlip">
-                        <img src="images/portfolio-1.0.png" alt="page">                    
-                    </div>
-            </section>
-            <section class ="summary">
-                    <div class ="leftFlip">
-                        <h2>Portfolio 2.0</h2>
-                        <h3>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML, </a><a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS, and</a> <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#Bootstrap"> Bootstrap.</a></h3>
-                        <p>Created a simple online portfolio which documents past projects and technologies used.</p>                   
-                    </div>
-                    <div class ="rightFlip">
-                        <img src="images/portfolio-1.0.png" alt="page">                    
-                    </div>
-            </section>
-        </div>-->
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src="javascripts/bootstrap.js"></script>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
     </body>
 </html>
